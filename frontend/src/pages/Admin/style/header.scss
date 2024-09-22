@@ -1,0 +1,23 @@
+.header-admin {
+  background: #10633d;
+  color: #fff;
+  padding: 20px;
+  text-align: right;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  li {
+    list-style: none;
+
+    &:hover {
+      color: red;
+    }
+  }
+}

@@ -1,0 +1,101 @@
+.cart {
+  // padding: 10px 32px;
+
+  h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 0 32px;
+  }
+
+  p {
+    font-size: 16px;
+    padding: 0 32px;
+
+  }
+
+  .product-card {
+    padding: 20px;
+
+    .product-item {
+      border-bottom: 1px solid #ccc;
+      border-top: 1px solid #ccc;
+      width: 90%;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      img {
+        width: 120px;
+        border: 1px solid #ccc;
+        cursor: pointer;
+      }
+
+      .infor {
+        width: 220px;
+
+        .name {
+          font-size: 20px;
+          font-weight: 600;
+          cursor: pointer;
+        }
+
+        .qualyti {
+          font-size: 16px;
+        }
+
+        .price {
+          font-size: 16px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
+  .bill {
+    padding: 10px 32px;
+
+    .bill-detail {
+      margin-left: 50px;
+      width: 70%;
+      padding: 20px;
+      background-color: rgb(226, 229, 177);
+      color: black;
+
+      .title {
+        font-size: 20px;
+        padding: 10px 0;
+        font-weight: 600;
+        text-align: left;
+        border-bottom: 1px solid #000000;
+      }
+
+      .infor {
+        font-size: 16px;
+        padding: 0 10px;
+        border-bottom: 1px solid #232323;
+      }
+
+      .total {
+        font-size: 20px;
+        font-weight: 600;
+      }
+
+      button {
+        width: 100%;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: 600;
+        transition: 0.3s ease-in-out;
+        background-color: #059b05;
+        cursor: pointer;
+        color: white;
+
+        &:hover {
+          background-color: #006400;
+        }
+      }
+    }
+  }
+}

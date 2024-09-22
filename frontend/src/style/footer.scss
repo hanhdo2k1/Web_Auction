@@ -1,0 +1,38 @@
+.footer {
+  background-color: #F9F9FB;
+  margin-top: 20px;
+  padding-top: 20px;
+  cursor: pointer;
+
+  .infor {
+    cursor: pointer;
+
+    .social {
+      display: flex;
+      margin-top: 20px;
+      gap: 20px;
+    }
+
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 600;
+
+    &:hover {
+      color: darkgreen;
+
+    }
+  }
+
+  .copyright {
+    margin-top: 20px;
+    padding: 10px 32px;
+    border-top: 1px solid #7d7b7b;
+    font-style: italic;
+  }
+}

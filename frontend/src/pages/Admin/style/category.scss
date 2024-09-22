@@ -1,0 +1,70 @@
+.category {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+
+    th,
+    td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ccc;
+    }
+
+    th {
+      background: #3c3c3c;
+      color: #fff;
+    }
+
+    .edit-btn,
+    .delete-btn {
+      padding: 5px 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-right: 5px;
+
+      &.edit-btn {
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+
+        &:hover {
+          background-color: #45a049;
+        }
+      }
+
+      &.delete-btn {
+        background-color: #ff4d4d;
+        color: #fff;
+        border: none;
+
+        &:hover {
+          background-color: #ff1a1a;
+        }
+      }
+    }
+  }
+
+  .add-btn {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+
+    &:hover {
+      background: #45a049;
+    }
+  }
+}
